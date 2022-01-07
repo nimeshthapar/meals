@@ -1,3 +1,5 @@
+const path = require('path');
+
 const mongoose = require('mongoose');
 const express = require('express');
 
@@ -10,20 +12,15 @@ const orderRoutes = require('./routes/order');
 
 app.use(express.json());
 
-app.use((req, res, next) => {
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader(
-    'Access-Control-Allow-Headers',
-    'Origin, X-Requested-With, Content-Type, Accept, Authorization'
-  );
-  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, PATCH');
-
-  next();
-});
+app.use(express.static(path.join('public')));
 
 app.use('/api/menu', menuRoutes);
 
 app.use('/api/order', orderRoutes);
+
+app.use((req, res, next) => {
+  res.sendFile(path.resolve(__dirname, 'public', 'index.html'));
+});
 
 app.use((err, req, res, next) => {
   if (res.headerSent) {
