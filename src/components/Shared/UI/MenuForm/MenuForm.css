@@ -1,0 +1,13 @@
+.menu-form__div input {
+  padding: 5px 0;
+  border-radius: 4px;
+  margin-left: 3px;
+  margin-right: 3px;
+  border: 1px solid #ff3549;
+  width: 30px;
+  text-align: center;
+}
+
+.menu-form__div input:focus {
+  outline: 1px solid #ff3549;
+}

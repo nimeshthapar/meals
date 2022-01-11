@@ -1,0 +1,36 @@
+.empty-cart {
+  margin-top: 90px;
+  text-align: center;
+  background: #fff;
+}
+
+.empty-cart img {
+  width: 20%;
+  height: 50%;
+  object-fit: contain;
+  transform: translateX(-30px);
+}
+
+.empty-cart a {
+  color: #ff5349;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.empty-cart a:hover {
+  color: rgb(100, 100, 100, 0.5);
+}
+
+.order-btn {
+  margin-top: 10px;
+}
+
+.order-card {
+  background-color: #fff;
+}
+
+@media (max-width: 40rem) {
+  .empty-cart img {
+    transform: translateX(0);
+  }
+}

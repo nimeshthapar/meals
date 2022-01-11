@@ -1,0 +1,40 @@
+.order-container {
+  animation: focus 300ms ease-in forwards;
+}
+
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order-item:hover {
+  background-color: rgb(230, 230, 230, 0.5);
+}
+
+.order-heading {
+  margin: 1rem auto;
+  transform: translateX(12px);
+}
+
+.order-main__heading {
+  margin: 0 auto 5px;
+  text-align: center;
+}
+
+@keyframes focus {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  50% {
+    transform: scale(0.5);
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,8 @@
+.order {
+  background-color: white;
+  margin-top: 90px;
+}
+
+.center button:first-of-type {
+  margin-right: 15px;
+}

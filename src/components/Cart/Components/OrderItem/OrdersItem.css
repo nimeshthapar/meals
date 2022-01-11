@@ -1,0 +1,7 @@
+.order-item__box {
+  cursor: pointer;
+}
+
+.order-item__box p {
+  color: rgb(66, 197, 66);
+}

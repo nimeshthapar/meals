@@ -1,0 +1,31 @@
+.menu-meal__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menu-meal__item h4 {
+  width: 125px;
+  margin: 0;
+}
+
+.menu-meal__item p {
+  width: 500px;
+  text-align: center;
+}
+
+.menu-meal__item span {
+  width: 40px;
+}
+
+@media (max-width: 40rem) {
+  .menu-meal__item {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .menu-meal__item p {
+    width: auto;
+  }
+}

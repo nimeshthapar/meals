@@ -1,0 +1,26 @@
+.new-cart {
+  margin-top: 90px !important;
+  background: #fff;
+}
+
+.amount {
+  text-align: right;
+}
+
+.amount h3 {
+  margin-right: 60px;
+}
+
+.amount button {
+  margin-right: 20px;
+}
+
+@media (max-width: 40rem) {
+  .amount h3 {
+    margin-right: 30px;
+  }
+
+  .amount button {
+    margin-right: 5px;
+  }
+}

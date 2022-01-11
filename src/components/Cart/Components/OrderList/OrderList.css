@@ -1,0 +1,9 @@
+.order-list {
+  border-bottom: 1px solid black;
+}
+
+.order-list h4 {
+  border-top: 1px solid black;
+  margin: 0;
+  color: darkgreen;
+}

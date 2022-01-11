@@ -1,0 +1,8 @@
+.side {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 70vw;
+  background-color: white;
+  z-index: 200;
+}

@@ -1,0 +1,99 @@
+.nav-item {
+  margin-right: 2rem;
+}
+
+.nav-item a {
+  color: white;
+}
+
+.side-link {
+  margin-bottom: 1.5rem;
+}
+.side-link a {
+  position: relative;
+  z-index: 250;
+  color: #ff5349;
+  font-size: 1.3rem;
+}
+
+.side-link a:hover,
+.side-link a:active,
+.side-link a.active {
+  border-bottom: 3px solid #ff5349;
+}
+
+.side-link .badge {
+  background-color: #ff5349;
+  color: #fff;
+}
+
+.nav-item a:hover,
+.nav-item a:active,
+.nav-item a.active {
+  border-bottom: 3px solid white;
+}
+
+.btn {
+  border: 1px solid white;
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.side-link .btn {
+  border-color: #ff5349;
+}
+
+.btn svg {
+  margin-right: 10px;
+}
+
+.btn:hover,
+.btn:active,
+.btn.active {
+  color: #ff5349;
+  background-color: white;
+}
+
+.side-link .btn:hover,
+.side-link .btn:active,
+.side-link .btn.active {
+  color: #fff;
+  background-color: #ff5349;
+}
+
+.badge {
+  margin-left: 10px;
+  border: 1px solid white;
+  padding: 0 7px;
+  border-radius: 50%;
+  background-color: white;
+  color: #ff5349;
+}
+
+.bump {
+  animation: bump 300ms ease-out;
+}
+
+.btn:hover .badge,
+.btn:active .badge,
+.btn.active .badge {
+  background-color: #ff5349;
+  color: #fff;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1.2);
+  }
+
+  50% {
+    transform: scale(0.8);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

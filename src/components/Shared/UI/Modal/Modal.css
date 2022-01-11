@@ -1,0 +1,79 @@
+.overlay {
+  position: fixed;
+  top: 30vh;
+  left: 25vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 200;
+}
+
+.modal-card {
+  padding: 0 !important;
+  background-color: #fff;
+  overflow: hidden;
+  width: 50vw;
+  animation: slideDown 200ms ease forwards;
+}
+
+.modal-card header {
+  background-color: #ff5349;
+  margin: 0;
+  color: #fff;
+  height: 30px;
+  padding: 10px 20px;
+}
+
+.modal-card h3 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.main {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.footer {
+  text-align: right;
+}
+
+.footer button {
+  margin: 10px 20px;
+}
+
+@media (max-width: 40rem) {
+  .overlay {
+    left: 12.5vw;
+  }
+  .header {
+    height: 60px;
+  }
+  .modal-card {
+    width: 70vw;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .footer button {
+    width: 80%;
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  50% {
+    transform: translateY(-50%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}

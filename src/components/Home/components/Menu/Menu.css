@@ -1,0 +1,37 @@
+.menu-card {
+  background-color: #fff;
+  animation: slideUp 400ms ease-in-out forwards;
+}
+
+.menu-heading {
+  text-decoration: underline;
+  font-size: 1.5rem;
+  font-family: cursive;
+  margin: 1rem auto;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgb(230, 230, 230, 0.8);
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  background-color: rgb(230, 230, 230, 0.8);
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(50%);
+  }
+
+  50% {
+    transform: translateY(25%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}

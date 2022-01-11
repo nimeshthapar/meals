@@ -1,0 +1,34 @@
+.button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid #ff5349;
+  color: #fff;
+  background-color: #ff5349;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #ff5349;
+}
+
+.inverse {
+  background-color: #fff;
+  color: #ff5349;
+}
+
+.inverse:hover {
+  color: #fff;
+  background-color: #ff5349;
+}
+
+.disabled {
+  cursor: not-allowed;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid rgb(100, 100, 100);
+  color: rgb(100, 100, 100);
+  background-color: rgb(230, 230, 230);
+  font-size: 1rem;
+}
