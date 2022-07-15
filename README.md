@@ -1,5 +1,5 @@
-# meals
-full deployed app at https://mern-meal.herokuapp.com/
+# Meals
+fully deployed app at https://mern-meal.herokuapp.com/
 To run locally in Backend branch follow commands
     * npm install 
     * make a nodemon.json where add your env key and add your 'MONGO_URI and add jsonwebtoken "SECRET_KEY"
